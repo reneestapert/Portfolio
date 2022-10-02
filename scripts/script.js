@@ -6,7 +6,7 @@ console.log (" HELLOOO");
 var WorkLink = document.querySelector ('header nav li:nth-of-type(2) img');
 var AboutLink = document.querySelector ('header nav li:last-of-type img');
 var LinkdInLink = document.querySelector ('#aboutme a img');
-var FunctieAni = document.querySelector ('header h1 img');
+// var FunctieAni = document.querySelector ('header h1 img');
 
 function HoverOverWork () {
 
@@ -49,18 +49,18 @@ function NotHoverOverLinkdIn () {
 }
 
 
-function HoverOverFunctie () {
+// function HoverOverFunctie () {
 
-    this.src = "images/renee_stapert_functie_2.png";
+//     this.src = "images/renee_stapert_functie_2.png";
 
-    console.log("heen");
-}
+//     console.log("heen");
+// }
 
-function NotHoverOverFunctie () {
-    this.src = "images/renee_stapert_functie.png";
+// function NotHoverOverFunctie () {
+//     this.src = "images/renee_stapert_functie.png";
 
-    console.log("terug");
-}
+//     console.log("terug");
+// }
 
 
 
@@ -73,8 +73,8 @@ AboutLink.addEventListener("mouseout", NotHoverOverAbout);
 LinkdInLink.addEventListener("mouseover", HoverOverLinkdIn);
 LinkdInLink.addEventListener("mouseout", NotHoverOverLinkdIn);
 
-FunctieAni.addEventListener("mouseover", HoverOverFunctie);
-FunctieAni.addEventListener("mouseout", NotHoverOverFunctie);
+// FunctieAni.addEventListener("mouseover", HoverOverFunctie);
+// FunctieAni.addEventListener("mouseout", NotHoverOverFunctie);
 
 
 
